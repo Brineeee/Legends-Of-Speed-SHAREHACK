@@ -1,6 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/Kavo-GT/main/lua"))()
 
-local Window = Library.CreateLib("Light Step X - Legends of Speed [OP] ", "Midnight")
+local GreenTheme = {
+      SchemeColor = Color3.fromRGB(120, 200, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Window = Library.CreateLib("Green X Hub - Legends of Speed", GreenTheme)
 
 local Tab1 = Window:NewTab("\\-Ultra Farm-//")
 local Tab1Section = Tab1:NewSection("\\-Mobile-//")
